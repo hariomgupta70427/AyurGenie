@@ -1,69 +1,89 @@
-# Welcome to your Lovable project
+# Ayurvedic DNA Genius
 
-## Project info
+## Overview
 
-**URL**: https://lovable.dev/projects/f21e53ca-11b4-471a-953c-9e11f69b9a6d
+This project is a modern web application that combines ancient Ayurvedic wisdom with cutting-edge DNA analysis to provide personalized health recommendations. The platform helps users understand their unique body constitution (Prakriti) and offers tailored wellness advice based on their genetic predispositions.
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+- Personalized Dosha assessment (Vata, Pitta, Kapha)
+- DNA-based health insights
+- Custom Ayurvedic diet recommendations
+- Lifestyle modification suggestions
+- Interactive wellness dashboard
+- Progress tracking and reporting
 
-**Use Lovable**
+## Technology Stack
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f21e53ca-11b4-471a-953c-9e11f69b9a6d) and start prompting.
+This project is built with a modern tech stack:
 
-Changes made via Lovable will be committed automatically to this repo.
+- Vite - Next generation frontend tooling
+- TypeScript - For type-safe code
+- React - UI component library
+- shadcn-ui - Beautiful UI components
+- Tailwind CSS - Utility-first CSS framework
 
-**Use your preferred IDE**
+## Getting Started
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Prerequisites
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Node.js (v16 or higher)
+- npm or yarn package manager
 
-Follow these steps:
+### Installation
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Clone the repository
+git clone <YOUR_REPOSITORY_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Navigate to the project directory
+cd ayurvedic-dna-genius
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
+# or
+yarn install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
+# or
+yarn dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at `http://localhost:5173` by default.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Project Structure
 
-**Use GitHub Codespaces**
+```
+ayurvedic-dna-genius/
+├── public/            # Static assets
+├── src/               # Source files
+│   ├── components/    # Reusable UI components
+│   ├── lib/           # Utility functions and helpers
+│   ├── pages/         # Application pages
+│   ├── styles/        # Global styles
+│   └── App.tsx        # Main application component
+├── package.json       # Project dependencies and scripts
+└── vite.config.ts     # Vite configuration
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Deployment
 
-## What technologies are used for this project?
+This project can be deployed to any static hosting service:
 
-This project is built with .
+1. Build the production-ready assets:
+   ```sh
+   npm run build
+   # or
+   yarn build
+   ```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+2. Deploy the contents of the `dist` directory to your hosting provider of choice (Netlify, Vercel, GitHub Pages, etc.)
 
-## How can I deploy this project?
+## Contributing
 
-Simply open [Lovable](https://lovable.dev/projects/f21e53ca-11b4-471a-953c-9e11f69b9a6d) and click on Share -> Publish.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-## I want to use a custom domain - is that possible?
+## License
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+This project is licensed under the MIT License - see the LICENSE file for details.
