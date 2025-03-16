@@ -8,10 +8,10 @@ import { Link } from 'react-router-dom';
 const Profile = () => {
   // Mock user data - in a real app, this would come from a database or API
   const userData = {
-    name: "Alex Johnson",
-    age: 32,
+    name: "Hariom Gupta",
+    age: 21,
     gender: "Male",
-    email: "alex.johnson@example.com",
+    email: "guptahariom@example.com",
     doshaProfile: {
       vata: 40,
       pitta: 35,
